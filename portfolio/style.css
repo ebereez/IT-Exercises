@@ -1,0 +1,305 @@
+header{
+    background-color:black;
+}
+
+header > ul{
+    list-style-type: none;
+    background-color:black;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+header > ul > li > a {
+    padding: 14px 16px 40px;
+    color:white;
+    display:block;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+header > ul > li > a:hover{
+    background-color: grey;
+}
+
+
+.EE  > a{
+    text-decoration: underline;
+    font-weight:bold;
+    float: left;
+    margin-left: 28%;
+}
+
+.ser{
+font-size: x-small;
+padding-left: 5%;
+padding-top: 10px;
+float: left;
+}
+
+.wor{
+    font-size: x-small;
+    padding-left: 3%;
+    padding-top: 10px;
+    float: left;
+}
+
+.ema{
+    font-size: x-small;
+    margin-left: 10;
+    padding-top: 10px;
+    float: right;
+}
+
+.section{
+    text-align:center;
+    color:white;
+    background-color:black;
+}
+
+h1{
+    font-size: 50px;
+    margin:0;
+    font-family: Mangleka;
+    src: url(Mangleka.otf);
+}
+
+h3{
+    font-size :25px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+/*.black{
+    background-color: black;
+}
+*/
+
+.years{
+    display: flex;
+}
+
+.section1{
+    color:white;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    column-gap: 150px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+    border-radius: 0 0 50% 50%;
+}
+
+.firstrow{
+    display: flex;
+    column-gap: 100px;
+}
+
+.secondrow{
+    display: flex;
+    column-gap: 100px;
+}
+
+.f1{
+    /* align-self; */
+}
+
+.link:visited, .link:link{
+    color: white; 
+    font-size: x-small;
+}
+
+
+.link:hover, .link:active{
+    color: red;
+    font-size: x-small;
+}
+
+.Few{
+   text-align: center; 
+}
+
+
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    padding-top: 25px;
+}
+.h2{
+    text-align: center; 
+    font-family: mangleka;
+    src: url(Mangleka.otf);
+}
+
+.all{
+    text-align: center; 
+    padding:10px 20px;
+    border: 1px solid grey;
+    background-color: white;
+    display: inline-block;
+    cursor:pointer;
+    text-decoration:none;
+    color: black;
+    font-size:x-small;
+    font-weight: bold;
+    margin-left: 300px;
+    
+}
+
+.all:hover{
+    color:white;
+    background-color: black;
+}
+.round{
+    border:none;
+    padding:10px;
+    text-decoration:none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+.round:hover{
+    background-color: black;
+    color:white;
+}
+.image{
+    margin:auto;
+    width: 50%;
+}
+
+
+#mi{
+    text-decoration: none;
+    color: grey;
+    font-size: small;
+}
+
+
+td{
+    padding-left: 50px;
+    padding-right: 100px;
+    font-weight: bold;
+    
+}
+
+
+.complete{
+    text-decoration: underline;
+    font-size: smaller;
+}
+
+.view:visited, .view:link{
+    color:grey;
+    font-size: x-small;
+}
+
+.view:hover, .view:active{
+    color: red;
+    font-size: x-small;
+}
+#below{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+h4{
+    margin: 4px;
+    font-size:small;
+}
+.intern{
+    margin:4px;
+    font-size:11px;
+    color: grey;
+}
+.option{
+    border:none;
+    padding: 10px 20px;
+    background-color: rgba(224, 230, 234, 0.833);
+    color: black;
+    display: block;
+}
+.lorem{
+    text-align: justify;
+    font-size: 13px;
+    color: grey;
+}
+.lightcolor{
+    background-color: rgba(224, 230, 234, 0.833);
+    padding-bottom: 60px;
+    padding-top: 40px;
+    margin-top: 100px;
+}
+.design{
+    font-size: larger;
+    font-family: Mangleka;
+    src: url(Mangleka.otf;);
+}
+.myrow{
+    padding-bottom: 200px;
+}
+.UI{
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+.table{
+    border-spacing: 30px;
+}
+.app{
+    font-weight: bold;
+    font-family: Mangleka;
+    src: url(Mangleka.otf);
+}
+.ten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.ye{
+    padding-left: 6px;
+    margin: 0px;
+}
+.nten{
+    margin: 0px;
+    font-size: 40px;
+}
+/*
+.year{
+    margin-top:0px;
+
+}
+    */
+
+   
+.exp{
+    align-items: center;
+    justify-content: center;
+  
+}
+.fp{
+    padding-top: 50px;
+}
+    
+.stars{
+    padding-top: 20px;
+}
+.rarrow{
+    color:black;
+    margin:0;
+    padding: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 50%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(224, 230, 234, 0.833);   
+}
+.rarrow:hover{
+    background-color: black;
+    color:white;
+}

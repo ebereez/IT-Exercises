@@ -1,0 +1,14 @@
+@media screen and (max-width:768px){
+    .container{
+        width:50%;
+        align-self: center;
+    }
+
+    .inner-container2 > div{
+        grid-column: 1/ span2;
+    }
+
+    .dropdown{
+        width:80%;
+    }
+}

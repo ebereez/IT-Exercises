@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/1b2caef811.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="bg-amber-50 w-screen h-screen flex justify-center items-center">
+        <div class="bg-white w-[400px] h-[450px] rounded-[20px] p-[30px] shadow-xl"> 
+            <h1 class="font-bold text-[15px] text-blue-950 mb-4">Search for a rental car</h1>
+            <p class="font-bold text-[8px] mb-1 text-blue-950">Pick up location</p>
+            <input type="text" placeholder="City, airport, region, district..." class="border border-blue-900 rounded-[5px] w-full text-blue-950 placeholder-blue-950 p-[7px] text-[10px] font-bold">
+
+            <div class="flex items-center mt-3 mb-4">
+                <input type="checkbox" class="border-blue-900">
+                <label for="checkbox" class="text-[10px] ml-1 text-blue-950 font-bold">Deliver the car somewhere else</label>
+            </div>
+
+            <div class="flex gap-2 ">
+                <div>
+                   <p class="font-bold text-[8px] mb-1 text-blue-950">Date of pickup</p>
+                   <input type="date" placeholder="Sat 26 Mar 2022" class="border border-blue-900 rounded-[5px] w-[166px] text-blue-950 placeholder-blue-950 p-[7px] text-[10px] font-bold mb-1">
+                   
+                   <div class="flex">
+                        <div>
+                            <input type="number" min="0" max="300" placeholder="10" class="border border-blue-900 rounded-l-[5px] w-[83px] text-blue-950 placeholder-blue-950 p-[7px] text-[10px] font-bold">
+                        </div>
+                        <div>
+                           <input type="number" min="0" max="59" placeholder="00" class="border border-blue-900 rounded-r-[5px] w-[83px] text-blue-950 placeholder-blue-950 p-[7px] text-[10px] font-bold">
+                        </div>
+                    </div>  
+                </div>
+
+
+                <div>
+                   <p class="font-bold text-[8px] mb-1 text-blue-950">Date of delivery</p>
+                   <input type="date" placeholder="Tue 29 Mar 2022" class="border border-blue-900 rounded-[5px] w-[166px] text-blue-950 placeholder-blue-950 p-[7px] text-[10px] font-bold mb-1">
+                   <div class="flex">
+                        <div>
+                            <input type="number" min="0" max="300" placeholder="10" class="border border-blue-900 rounded-l-[5px] w-[83px] text-blue-950 placeholder-blue-950 p-[7px] text-[10px] font-bold">
+                        </div>
+                        <div>
+                            <input type="number" min="0" max="59" placeholder="00" class="border border-blue-900 rounded-r-[5px] w-[83px] text-blue-950 placeholder-blue-950 p-[7px] text-[10px] font-bold">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="flex items-center mt-4 mb-4">
+                <input type="checkbox" class="border-blue-900">
+                <label for="checkbox" class="text-[10px] ml-1 text-blue-950 font-bold">The driver's age between 30 and 65? <i class="fa-solid fa-circle-info"></i> </label>
+                
+            </div>
+             
+                <ul class="text-[10px] text-blue-950 font-bold mb-4">
+                    <li class="mb-2"><i class="fa-solid fa-check"></i><span class="ml-1">No credit card fees</span></li>
+                    <li class="mb-2"><i class="fa-solid fa-check"></i><span class="ml-1">No change fees</span></li>
+                    <li><i class="fa-solid fa-check"></i><span class="ml-1">Price match guarantee</span></li>
+                </ul>
+
+                <button class="border border-red-500 bg-red-500 p-[15px] w-full rounded-[10px] text-white text-[12px] font-bold">Search</button>
+        
+        </div> 
+    </div>
+</body>
+</html>

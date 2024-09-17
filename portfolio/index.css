@@ -1,0 +1,118 @@
+header{
+    background-color: black;
+
+}
+
+@media screen and (max-width:768px) {
+    body{
+        width: 50vh;
+    }
+
+    .section1 > div > img{
+        width:100px;
+        padding:30px;
+    }
+
+    .section1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstrow{
+        flex-direction: column;
+    }
+
+    .secondrow{
+     flex-direction: column;   
+    }
+
+    .image > div > p > img{
+        width:250px;
+    }
+    
+    .all{
+        margin-left: 50px;
+    }
+
+    td{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .height{
+        height: 50vh;
+    }
+
+    header > ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        list-style-type: none;
+        overflow: clip;
+        padding-top: 10px;
+    }
+
+    header > ul > li > a {
+        padding: 10px 0px;
+        color:white;
+        display:block;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    h3{
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .review{
+        flex-direction: column;
+
+    }
+
+    .client-text{
+        padding: 20px;
+    }
+
+    /*.review > div > img{
+        width: 50px;
+    }
+        */
+
+    li > a{
+        color: white;
+    
+    }
+
+    .EE > a{
+        text-decoration: underline;
+        font-weight:bold;
+    }
+    
+    .ser > a{
+        font-size: x-small;
+        text-decoration: none;
+    }
+        
+    .wor{
+        font-size: x-small;
+        text-decoration: none;
+    }
+        
+    .ema{
+        font-size: x-small;
+        text-decoration: none;
+    }
+
+    li > a:hover{
+        background-color: grey;
+        padding: 20px;
+    }
+    .black-image
+        
+        
+
+
+
+}

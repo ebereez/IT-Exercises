@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="bg-indigo-100 w-screen h-screen flex justify-center items-center p-[50px]">
+        <div class="bg-white w-full h-full p-[40px] rounded-[15px] shadow-xl">
+            <h1 class="text-[20px] text-blue-950 font-bold mb-4">Users</h1>
+
+            <div class="flex items-center mb-10">
+                <div>
+                    <form action="/" method="GET" class="form border border-indigo-200 p-[10px] flex items-center w-[300px]">
+                        <button type="submit" class="search-button">
+                            <span class="mr-2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </button>
+                    <input type="search" placeholder="Search users" class="placeholder-gray-600 text-[12px] outline-none hover:outline-none"/>
+                </div>
+
+                <div class="text-[10px] ml-[400px]">
+                    <button class="border border-transparent p-[10px] hover:border-indigo-500 hover:bg-indigo-500 rounded-[5px] hover:text-white">Reputation</button>
+                    <button class="border border-transparent p-[10px] hover:border-indigo-500 hover:bg-indigo-500 rounded-[5px] hover:text-white">New users</button>
+                    <button class="border border-transparent p-[10px] hover:border-indigo-500 hover:bg-indigo-500 rounded-[5px] hover:text-white">Voters</button>
+                    <button class="border border-transparent p-[10px] hover:border-indigo-500 hover:bg-indigo-500 rounded-[5px] hover:text-white">Editors</button>
+                    <button class="border border-transparent p-[10px] hover:border-indigo-500 hover:bg-indigo-500 rounded-[5px] hover:text-white">Moderators</button>
+                </div>
+            </div>
+
+                <div class="grid grid-cols-6 gap-[10px]">
+                    <div class="flex p-[15px] col-span-2 border border-indigo-50 w-full h-[135px] rounded-[10px] bg-indigo-50 hover:bg-white hover:shadow-lg hover:shadow-indigo-100 hover:border-indigo-200">
+                        <img src="female1.jpg" class="w-[60px] h-[60px] rounded-[50%] ml-6">
+                        <div class="ml-4">
+                            <p class="text-[18px] text-blue-950 font-bold">Lelah Nichols</p>
+                            <p class="text-[12px] text-blue-950">Troy, MI</p>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">clothes</button>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">stem</button>
+                        </div> 
+
+                    </div>
+
+                    <div class="flex p-[15px] col-span-2 border border-indigo-50 w-full h-[135px] rounded-[10px] bg-indigo-50 hover:bg-white hover:shadow-lg hover:shadow-indigo-100 hover:border-indigo-200">
+                        <img src="male1.jpg" class="w-[60px] h-[60px] rounded-[50%] ml-6">
+                        <div class="ml-4">
+                            <p class="text-[18px] text-blue-950 font-bold">Jesus Weiss</p>
+                            <p class="text-[12px] text-blue-950">Fort Worth, TX</p>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">headset</button>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">gadget</button>
+                            <p><button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">speed</button>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">winter</button></p>
+                        </div> 
+
+                    </div>
+                    
+                    <div class="flex p-[15px] col-span-2 border border-indigo-50 w-full h-[135px] rounded-[10px] bg-indigo-50 hover:bg-white hover:shadow-lg hover:shadow-indigo-100 hover:border-indigo-200">
+                        <img src="female2.jpg" class="w-[60px] h-[60px] rounded-[50%] ml-6">
+                        <div class="ml-4">
+                            <p class="text-[18px] text-blue-950 font-bold">Annie Rice</p>
+                            <p class="text-[12px] text-blue-950">Austin, TX</p>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">road</button>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">mountain</button>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">trip</button>
+                            <p><button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">earth</button>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">nature</button></p>
+
+                        </div> 
+
+                    </div>
+
+                    <div class="flex p-[15px] col-span-2 border border-indigo-50 w-full h-[135px] rounded-[10px] bg-indigo-50 hover:bg-white hover:shadow-lg hover:shadow-indigo-100 hover:border-indigo-200">
+                        <img src="male2.jpg" class="w-[60px] h-[60px] rounded-[50%] ml-6">
+                        <div class="ml-4">
+                            <p class="text-[18px] text-blue-950 font-bold">Robert Browser</p>
+                            <p class="text-[12px] text-blue-950">Cincinnati, OH</p>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">Maintenance</button>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">gears</button>
+                            <p><button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">frames</button>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">repair</button></p>
+                       
+                        </div> 
+
+                    </div>
+
+                    <div class="flex p-[15px] col-span-2 border border-indigo-50 w-full h-[135px] rounded-[10px] bg-indigo-50 hover:bg-white hover:shadow-lg hover:shadow-indigo-100 hover:border-indigo-200">
+                        <img src="female3.jpg" class="w-[60px] h-[60px] rounded-[50%] ml-6">
+                        <div class="ml-4">
+                            <p class="text-[18px] text-blue-950 font-bold">Amy Campbell</p>
+                            <p class="text-[12px] text-blue-950">Troy, MI</p>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">music</button>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">disks</button>
+                        </div> 
+
+                    </div>
+
+                    <div class="flex p-[15px] col-span-2 border border-indigo-50 w-full h-[135px] rounded-[10px] bg-indigo-50 hover:bg-white hover:shadow-lg hover:shadow-indigo-100 hover:border-indigo-200">
+                        <img src="male3.jpg" class="w-[60px] h-[60px] rounded-[50%] ml-6">
+                        <div class="ml-4">
+                            <p class="text-[18px] text-blue-950 font-bold">Anthony S. Morin</p>
+                            <p class="text-[12px] text-blue-950">Lyndhurst, NJ</p>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">vintage</button>
+                            <button class="rounded-[10px] text-[10px] text-indigo-500 bg-white border border-indigo-500 py-[2px] px-1">electric</button>
+                        </div> 
+
+                    </div>
+
+                </div>
+
+            </div>
+                  
+        </div>
+    </div>
+</body>
+</html>
